@@ -3,8 +3,11 @@ entry1:
   instance_type: m5.large
   host_resource_group_arn: arn:aws:resource-groups:us-west-2:012345678901:group/win-testhost
   tenancy: host
+  tags: {}
 entry2:
   ami: ami-that-is-cool
   instance_type: m6.large
   host_resource_group_arn: arn:aws:resource-groups:us-west-2:012345678901:group/something
   tenancy: default
+  tags:
+    one: 1
