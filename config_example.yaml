@@ -7,4 +7,4 @@ entry2:
   ami: ami-that-is-cool
   instance_type: m6.large
   host_resource_group_arn: arn:aws:resource-groups:us-west-2:012345678901:group/something
-  tenancy: host2
+  tenancy: default
