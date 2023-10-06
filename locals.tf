@@ -6,7 +6,7 @@ locals{
       instance_type = entry.instance_type
       host_resource_group_arn = entry.host_resource_group_arn
       tenancy = entry.tenancy
-      tags = merge(var.labels, entry.tags)
+      tags = merge(var.tags, entry.tags)
     }
   }
 }

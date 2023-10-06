@@ -3,7 +3,7 @@ variable "configuration_file" {
   default = "module_config.yaml"
 }
 
-variable "labels" {
+variable "tags" {
   type = map
   default = {}
 }
